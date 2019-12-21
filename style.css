@@ -1,0 +1,36 @@
+* {
+	-webkit-box-sizing: boder-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body { 
+	background: #fff;
+	font-family: 'Inria Serif', serif;
+	font-size: 16px;
+ }
+
+.contenedor{
+	width: 90%;
+	max-width: 1000px;
+	background: #ccc;
+	margin: auto;
+}
+
+header {
+	background: url(portafolio/img/fondo.jpg ); #49a3d6;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-height: 600px;
+}
+
+header.menu {
+	margin: 40px 0;
+}
+
+header.menu a {
+	margin: 0 20px;
+	color: #fff;
+	padding-bottom: 9px;
+	font-size: 
+}
