@@ -25,7 +25,7 @@ header{
 }
 
 header .menu {
-	margin:40px , 0;
+	margin:40px ,10px;
 	text-align: right;
 }
 
@@ -35,12 +35,12 @@ header .menu a {
 	padding-bottom: 9px;
 	display: inline-block;
 	text-decoration: none;
-	border-bottom: 2px solid transparent;
-	font-size: lem;
+	border-bottom: 10px solid transparent;
+	font-size: 1em;
 }
 
-header .menu a : hover{
-	border-bottom: 2px solid #fff;
+header .menu a : hover {
+	border-bottom: 5px solid #fff;
 }
 
 header .contenedor-texto {
@@ -52,10 +52,10 @@ header .contenedor-texto {
 
 header .contenedor-texto .texto{
 	border:2px solid rgba(255,255,255,0.5);
-	border-radius: 3px;
+	border-radius: 2px;
 	display: inline-block;
 	text-align: center;
-	padding: 20px 60px;
+	padding: 10px 50px;
 }
 header .contenedor-texto .texto h1,
 header .contenedor-texto .texto h2 {
@@ -72,15 +72,23 @@ header .contenedor-texto .texto .nombre {
 header .contenedor-texto .texto .profesion {
 	font-size: 25px;
 	line-height: 0px;
+
 }
-/**********MAIN*********/
+
+
+/*------------MAIN-----------*/
+
+.main {
+	text-align: center;
+}
+
 .main .contenedor{
 	overflow: visible;
 }
 
 .main .acerca-de{
 	text-align: center;
-	background: #ccc;
+	/*background: #ccc; borrar despues*/
 }
 .main .acerca-de .foto{
 	margin-top: -60px;
@@ -89,15 +97,55 @@ header .contenedor-texto .texto .profesion {
 .main .acerca-de .foto img{
 	vertical-align: top;
 	border-radius: 50%;
-	border: 5px solid rgba(255,255,255,0.2);
+	border: 2px solid rgba(255,255,255,0.2);
 }
 
-.main .acerca-de .texto {
+.main .acerca-de .title {
 	color: #5a5a5a;
-	font-weight: 600;
-	font-size: lem;
+	font-weight: 600px;
+	font-size: 1em;
 	line-height: 30px;
-	width: 80€;
+	width: 80%;
 	margin: 40px auto 60px auto;
 	
+}
+.main .acerca-de .title .titulo {
+	font-size: 34px;
+	line-height: 34px;
+	margin-bottom: 40px;
+	font-weight: 300;
+	color: #dd820d;
+	text-align: center;	
+}
+.main .acerde-de .title.bold {
+	color:#3895ea;
+	text-decoration: underline;
+}
+
+.main .trabajo {
+	background: #f2f2f2;
+	padding: 60px 0;
+}
+
+.main .trabajo .contenedor {
+	overflow: hidden;
+}
+
+.main .trabajo .titulo {
+	font-size: 34px;
+	line-height: 34px;
+	margin-bottom: 40px;
+	font-weight: 300;
+	color: #323068;	
+	}
+
+.main .trabajo .contenedor-trabajo {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.main .trabajo. .contenedor-trabajo .trabajo .thumb img{
+	width: 100%;
+	vertical-align: top;
 }
