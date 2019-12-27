@@ -151,6 +151,6 @@ header .contenedor-texto .texto .profesion {
 	justify-content: space-between;
 }
 .main .trabajo. .contenedor-trabajo .trabajo .thumb img{
-	width: 50%;
+	width: 100%;
 	vertical-align: top;
 }
