@@ -30,18 +30,19 @@ header .menu {
 }
 
 header .menu a {
+	color: #fff;
+}
+header .menu a:hover {
 	margin: 0px , 20px;
 	color: #fff;
-	padding-bottom: 9px;
+	padding-bottom: 5px;
 	display: inline-block;
 	text-decoration: none;
-	border-bottom: 10px solid transparent;
+	border-bottom: 10px solid transparent 2px solid #fff;
 	font-size: 1em;
+	
 }
 
-header .menu a : hover {
-	border-bottom: 5px solid #fff;
-}
 
 header .contenedor-texto {
 	display: flex;
@@ -122,6 +123,9 @@ header .contenedor-texto .texto .profesion {
 	text-decoration: underline;
 }
 
+/*menu de trabajos*/
+
+
 .main .trabajo {
 	background: #f2f2f2;
 	padding: 60px 0;
@@ -137,6 +141,7 @@ header .contenedor-texto .texto .profesion {
 	margin-bottom: 40px;
 	font-weight: 300;
 	color: #323068;	
+	text-align: center;
 	}
 
 .main .trabajo .contenedor-trabajo {
@@ -146,6 +151,6 @@ header .contenedor-texto .texto .profesion {
 	justify-content: space-between;
 }
 .main .trabajo. .contenedor-trabajo .trabajo .thumb img{
-	width: 100%;
+	width: 50%;
 	vertical-align: top;
 }
